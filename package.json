@@ -1,0 +1,29 @@
+{
+    "name": "socket.io-mysql-session",
+    "version": "1.0.9",
+    "description": "Session manager for socket.io and websockets using MySQL as a session store.  This was designed specifically for applications that use frameworks like PhoneGap, where cookies are unreliable after the app is compiled.",
+    "author": "John Barlow",
+    "keywords": [
+        "session",
+        "sessions",
+        "socket.io",
+        "websockets",
+        "socket.io cookie",
+        "socket.io session",
+        "phonegap",
+        "cordova",
+        "mysql"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url" : "https://jnbarlow@bitbucket.org/jnbarlow/socket.io-mysql-session.git"
+    },
+    "dependencies":{
+        "underscore": "~1.8.3",
+        "uid-safe": "~2.0.0"
+    },
+    "engines": {
+        "node" : "*"
+    }
+}
